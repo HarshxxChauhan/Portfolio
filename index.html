@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dedf09f28e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo6.png" class=""logo>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi, I'm <span>Harsh</span></h1>
+                <p>Specialised in Data Analysis<br>and Web Development.</p>
+            </div>
+            <div><a href="#contact" class="btn3">Let's Connect</a></div>
+        </div>
+    </div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Harsh.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>"I'm a versatile and results-driven professional skilled in Data Analysis, Data Science, and Web Development. I have hands-on experience analyzing complex datasets, building predictive models, and visualizing insights using tools like Python, Pandas, NumPy, Matplotlib, and Scikit-learn. In the domain of data science, I apply machine learning and statistical techniques to solve real-world problems, from classification to forecasting.
+
+Complementing my analytical skills, I also design and develop full-stack web applications using technologies such as HTML, CSS, JavaScript, React, Node.js, and MongoDB. I’m passionate about creating dynamic, user-friendly web solutions that integrate seamlessly with data-driven backends. My goal is to build intelligent systems that are both powerful and intuitive."</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Education</p>
+                    
+                </div>
+                
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Bachelor of Technology in CSE-AIML</span><br>Noida Institute of Engineering and Technology | Gr. Noida</li>
+                        <li><span>12th</span><br>St. Mary’s Inter College | Etawah</li>
+                    </ul>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2>Languages</h2>
+                <p>1. Python<br>2. SQL<br>3. Java</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Frontend</h2>
+                <p>1. HTML<br>2. CSS<br>3. Bootstrap<br>4.Tailwind<br>5. JavaScript<br>6. ReactJS</p>
+               
+            </div>
+            <div>
+                <i class="fa-solid fa-server"></i>
+                <h2>Backend & Databases</h2>
+                <p>1. Node.JS<br>2. Express.JS<br>3. MySQL<br>4. MongoDB<br>5. Git & GitHub</p>
+              
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-simple"></i>
+                <h2>Data Science</h2>
+                <p>1. Machine Learning<br>2. Deep Learning<br>3. Power BI<br>4. Pandas<br>5. NumPy<br>6. Scikit-Learn<br>7. Matplotlib<br>8. Excel</p>
+             
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/health-ai.jpg" alt="">
+                <div class="layer">
+                    <h3>Health Assistant</h3>
+                    <p>Deployed ML models for real-time prediction of diabetes, Parkinson’s, and heart disease using feature engineering, evaluation metrics, and preprocessing.</p>
+                    <a href="https://bodydiagnosis.streamlit.app/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/portfolio.png" alt="">
+                <div class="layer">
+                    <h3>Portfolio website</h3>
+                    <p>Designed a responsive portfolio website using HTML, CSS and JavaScriptfeaturing animations, smooth navigation, modern UI, and interactivity.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Private Messaging App</h3>
+                    <p>Built a real-time messaging app using React, Node.js, Express, and MongoDB with Socket.io, authentication, private chat, and Tailwind UI.</p>
+                    <a href="https://github.com/HarshxxChauhan/Messaging-App"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/HarshxxChauhan?tab=repositories" class="btn">See more</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>harshchauhan8865@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91-8865881982</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/16dhHvsr4F/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/HarshxxChauhan"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/harsh-chauhan-7b458a260/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Harsh Chauhan. Made with <i class="fa-solid fa-heart"></i>.</p>
+    </div>
+</div>
+
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycby-lrgXWRRLtreUbB3K06BF3KI6Qer-TjCjVFf_9at2nlyj2miRl15riAq80sY2gZDMcg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg= document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully!"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
